@@ -1,0 +1,25 @@
+*** Constants and Variables ***
+- N=2 -> Buzzer's GPIO port
+- L1=6 -> LED 1 GPIO port
+- L2=11
+- L3=10
+- L4=17
+- B1=12 -> Button 1 input GPIO port
+- B2=8
+- B3=24
+- B4=18
+- colors=[] -> list with all of simon's random colors (starts empty)
+- leds=[L1,L2,L3,L4] -> list with all the LEDs
+- selectedColor=None -> auxiliary variable to get user inputs
+
+*** Functions ***
+- lightLED(led, t) -> Lights the given LED for a given time
+- playNote(t) -> Plays the buzzer for a given time
+- playColor(color, t) -> Plays note and lights LED for a given time
+- getRandColor() -> Returns a random color
+- addColor() -> adds new random color to the colors array
+- playSequence() -> plays the color sequence for the user
+- getColor() -> gets color base on the button the user pressed and plays note
+- getColorSequence() -> gets all the sequence from the user, dealing with user's failure
+- playEndGame() -> plays losing music and lights up all the LEDs in a fun pattern
+
