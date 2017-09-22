@@ -1,0 +1,13 @@
+*** Requirements ***
+- 4 LEDs (4 different colors)
+- 4 buttons
+- 1 buzzer
+- Lots of jumper wire (at least 11 female-to-male wires)
+- 9 resistors (four 1K Ohm and five 330 Ohm)
+
+*** GPIO Ports (Using GPIO.BCM organization) ***
+- GPIO2 for Buzzer
+- 3.3V rail for the buttons (using pull-up resistors)
+- GPIO18, GPIO24, GPIO8 and GPIO12 for button inputs
+- GPIO17, GPIO10, GPIO11 and GPIO6 for LED outputs
+- A random ground port
